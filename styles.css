@@ -1,0 +1,45 @@
+.move-list {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .move-list li {
+    background-color: beige;
+    list-style: none;
+    padding: 4px;
+  }
+  
+  body {
+    background-color: bisque;
+  }
+  
+  .image {
+    background-color: cadetblue;
+    padding: 8px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    width: 260px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .go-button {
+    background-color: yellow;
+    padding: 4px;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  
+  .go-button:hover {
+    background-color: yellowgreen;
+  }

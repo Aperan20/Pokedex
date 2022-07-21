@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Page Title</title>
-<script src="app.js"> </script>
-</head>
-<body onload="start()">
-
-<h1 id="name">Pokemon Name</h1>
-<img id="image" src=""/>
-<ul id="move-list"></ul>
-
-
-
-</body>
+  <head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-container">
+        <input type="text" id="search-box" />
+        <div class="go-button" onclick="fetchPokemon()">Go!</div>
+      </div>
+      <h1 id="name"></h1>
+      <img class="image" id="image" src="" />
+      <ul class="move-list" id="move-list"></ul>
+    </div>
+  </body>
 </html>
