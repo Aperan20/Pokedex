@@ -1,16 +1,22 @@
 .move-list {
     margin: 0;
     padding: 0;
+  
   }
   
   .move-list li {
-    background-color: beige;
+    background-color: purple;
     list-style: none;
     padding: 4px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:16px ;
+    
   }
   
   body {
-    background-color: bisque;
+    background-color: black;
+
   }
   
   .image {
@@ -31,15 +37,16 @@
   .search-container {
     display: flex;
     flex-direction: row;
+    
   }
   
   .go-button {
-    background-color: yellow;
+    background-color: purple;
     padding: 4px;
     border-radius: 16px;
     cursor: pointer;
   }
   
   .go-button:hover {
-    background-color: yellowgreen;
+    background-color: cadetblue;
   }
